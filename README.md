@@ -1,7 +1,5 @@
 # Device Tree for building Orangefox for Meizu M2 (Mblu2)
 
-# Device Tree for building Multirom TWRP for Meizu M2
-Device Tree for building Multirom TWRP for Meizu M2	
 Normal specs:
 ================================
 Basic   | Spec Sheet
