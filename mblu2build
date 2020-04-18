@@ -1,0 +1,22 @@
+source build/envsetup.sh
+export ALLOW_MISSING_DEPENDENCIES=true
+export FOX_RECOVERY_INSTALL_PARTITION=/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/recovery
+export FOX_USE_NANO_EDITOR=1
+export OF_DISABLE_MIUI_SPECIFIC_FEATURES=1
+export FOX_DELETE_AROMAFM=1
+export OF_FLASHLIGHT_ENABLE=0
+export OF_MAINTAINER=XRed_CubeX
+export TARGET_DEVICE_ALT=mblu2
+export TARGET_DEVICE_ALT=meilan2
+export TARGET_DEVICE_ALT=m2
+export TARGET_DEVICE_ALT=mblue2
+export TARGET_DEVICE_ALT=meizu_m2_mini
+export TARGET_DEVICE_ALT=M578
+export TARGET_DEVICE_ALT=M578U
+export TARGET_DEVICE_ALT=M578H
+export TARGET_DEVICE_ALT=M88
+export FOX_VERSION=R10.1
+export BUILD_TYPE="Stable"
+export LC_ALL="C"
+lunch omni_mblu2-eng && mka recoveryimage
+ 
