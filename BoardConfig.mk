@@ -63,4 +63,5 @@ MR_FSTAB := device/meizu/mblu2/recovery/root/etc/twrp.stock
 MR_USE_MROM_FSTAB := true
 MR_DEVICE_BOOTDEVICE := /dev/block/platform/mtk-msdc.0/11230000.msdc0
 MR_NO_KEXEC := enabled
+MR_KEXEC_MEM_MIN := 40EAC000
 DEVICE_RESOLUTION := 720x1280
