@@ -56,7 +56,7 @@ TW_MAX_BRIGHTNESS := 255
 # MultiROM config
 TARGET_RECOVERY_IS_MULTIROM := true
 MR_DEVICE_HAS_VENDOR_PARTITION := true
-#MR_DEVICE_HOOKS := $(PLATFORM_PATH)/multirom/mr_hooks.c
+#MR_DEVICE_HOOKS := $(LOCAL_PATH)/multirom/mr_hooks.c
 #MR_DEVICE_HOOKS_VER := 5
 MR_FIRMWARE_DIR := "/vendor/firmware"
 MR_INPUT_TYPE := type_b
