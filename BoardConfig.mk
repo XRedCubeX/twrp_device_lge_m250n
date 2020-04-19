@@ -51,12 +51,14 @@ TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_CRYPTO := true
 TW_THEME := portrait_hdpi
+TW_MAX_BRIGHTNESS := 255
 
 # MultiROM config
 TARGET_RECOVERY_IS_MULTIROM := true
 MR_DEVICE_HAS_VENDOR_PARTITION := true
 #MR_DEVICE_HOOKS := $(PLATFORM_PATH)/multirom/mr_hooks.c
 #MR_DEVICE_HOOKS_VER := 5
+MR_FIRMWARE_DIR := "/vendor/firmware"
 MR_INPUT_TYPE := type_b
 MR_INIT_DEVICES := device/meizu/mblu2/multirom/mr_init_devices.c
 MR_RD_ADDR := 0x4F88000
