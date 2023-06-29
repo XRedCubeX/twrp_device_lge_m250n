@@ -22,8 +22,8 @@ TARGET_IS_64_BIT := true
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-TARGET_KERNEL_SOURCE := kernel/meizu/mblu2
-TARGET_KERNEL_CONFIG := mblu2_defconfig
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/Image.gz-dtb
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_MKBOOTIMG_ARGS := \
     --board $(TARGET_BOARD_PLATFORM) \
     --kernel_offset 0x8000 \
