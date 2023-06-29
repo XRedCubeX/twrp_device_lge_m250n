@@ -52,21 +52,3 @@ TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_CRYPTO := true
 TW_THEME := portrait_hdpi
 TW_MAX_BRIGHTNESS := 255
-
-# MultiROM config
-TARGET_RECOVERY_IS_MULTIROM := true
-MR_DEVICE_HAS_VENDOR_PARTITION := true
-#MR_DEVICE_HOOKS := $(LOCAL_PATH)/multirom/mr_hooks.c
-#MR_DEVICE_HOOKS_VER := 5
-MR_FIRMWARE_DIR := "/vendor/firmware"
-MR_INPUT_TYPE := type_b
-MR_INIT_DEVICES := device/meizu/mblu2/multirom/mr_init_devices.c
-MR_RD_ADDR := 0x4F88000
-MR_DPI := hdpi
-MR_DPI_FONT := 216
-MR_FSTAB := device/meizu/mblu2/recovery/root/etc/twrp.treble
-MR_USE_MROM_FSTAB := true
-MR_DEVICE_BOOTDEVICE := /dev/block/platform/mtk-msdc.0/11230000.msdc0
-MR_NO_KEXEC := enabled
-MR_KEXEC_MEM_MIN := 40EAC000
-DEVICE_RESOLUTION := 720x1280
